@@ -154,6 +154,11 @@ Ignore files
 
 
 # GH - start interactive setup
+    
+-Login into your Github.com account in a browser
+    
 ```
 gh auth login
 ```
+
+Then you can use git commands from the command line
