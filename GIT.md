@@ -153,3 +153,7 @@ Ignore files
 * by whole folder,just write test/ in the file
 
 
+# GH - start interactive setup
+```
+gh auth login
+```
