@@ -1,18 +1,22 @@
+# GH - interactive authentication (easy)
+Login into your **github.com** account 
+```
+gh auth login
+```
+on that terminal, you can use git commands 
+
 
 # Basic Setup
-
 Install 
 ```
 sudo apt-get update
 sudo apt-get install git
 ```
-
 Setup user
 ```
 git config --global user.email my_email@gmail.com
 git config --global user.name  my_github_username
 ```
-
 If needed, reset all local user settings
 ```
 git config --global --unset user.name
@@ -21,13 +25,11 @@ git config --global --unset-all user.name
 ```
 
 # Repos
-
 Clone Repo
 ```
 git clone https://github.com/<username>/REPO
 cd REPO
 ```
-
 Setup Token (password)
 ```
 git remote remove origin
@@ -36,7 +38,6 @@ git remote add origin https://<token>@github.com/<username>/REPO.git
 
 If you **don't have a token**, go to https://github.com/settings/tokens, click on "Generate a new token", copy/paste <token> **above**
     
-
 Create a change and push it
 ```
 touch file1.txt
@@ -153,12 +154,4 @@ Ignore files
 * by whole folder,just write test/ in the file
 
 
-# GH - start interactive setup
-    
--Login into your Github.com account in a browser
-    
-```
-gh auth login
-```
 
-Then you can use git commands from the command line
