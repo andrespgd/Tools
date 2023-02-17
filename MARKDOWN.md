@@ -52,3 +52,25 @@ Format: ![Alt Text](url)
 -LINKS W FORMATTING
 http://github.com - automatic!
 [GitHub](http://github.com)
+
+
+## MARKDOWN NEW Line
+1st line
+2nd line
+* using backslash to create a new line
+
+1st line \
+2nd line
+
+## MARKDOWN Lists: Dashes or Asterisks (Act the SAME!!!!)
+- line1
+- line2
+- line3
+
+end of the dash lines
+
+* line1
+* line2
+* line3
+
+end of the asterisk lines
