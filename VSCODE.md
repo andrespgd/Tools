@@ -12,3 +12,7 @@ File->Preferences->KeyboardShortcuts
 * Set it to CTRL+D 
     * Like Spyder
     * If there is a binding already for CTRL+D, delete it!!!
+
+## Markdown
+CTRL+SHIFT+X or Extensions: Markdown Preview Enhanced --> Install \
+Open .md document, right-click --> Markdown Preview
