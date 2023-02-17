@@ -3,7 +3,8 @@ Login into your **github.com** account
 ```
 gh auth login
 ```
-on that terminal, you can use git commands 
+Will provide a code and open a browser tab, paste code\
+Now you can use git on that terminal
 
 
 # Basic Setup
