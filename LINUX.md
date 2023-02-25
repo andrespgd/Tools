@@ -63,14 +63,28 @@ cal 2023
 ```
 
 ## Parallel
-Run multiple jobs (similar to PowerShell's Get-ChildItem ... | Foreach-Object -Parallel { ..... } -ThrottleLimit 10)
+W/OUT
 ```
-parallel --jobs 10 --progress < list_jobs.txt
-#
-parallel echo ::: 1 2 3 4 5
-#
+command1 & command2 & command3 
+```
+With
+```
+parallel ::: 'command1' 'command2'
+```
+Using a file with commands
+```
+parallel --jobs 10 --progress < list_commands.txt
+```
+Example
+```
+parallel echo ::: 1 2 3 4 
+```
+Example
+```
 cat count_file.txt | parallel echo {}
-# download multiple URLs
+```
+Example download multiple URLs
+```
 cat download_items.txt | parallel --jobs 5 wget {}
 ```
 
