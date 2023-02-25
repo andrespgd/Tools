@@ -48,6 +48,7 @@ Calendar
 ```
 sudo apt install ncal
 cal
+cal 2023
 ```
 
 
