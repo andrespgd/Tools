@@ -30,8 +30,7 @@ Run it by:
 
 https://github.com/Stability-AI/stablediffusion
 
-### 1
-clone
+### 1 GIT clone
 ### 2 - create environment and activate
 ```
 conda env create --ldm --file=environment.yaml
