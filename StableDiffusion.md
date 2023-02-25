@@ -34,7 +34,7 @@ https://github.com/Stability-AI/stablediffusion
 ### 2 - create environment and activate
 ```
 conda env create --ldm --file=environment.yaml
-
+conda activate ldm
 ```
 ### 2 follow steps
 ```
@@ -58,12 +58,9 @@ cd ../stablediffusion
 ### 4 - Download .CKPT file
 ### 5 Run
 ```
-python scripts/gradio/depth2img.py configs/stable-diffusion/v2-midas-inference.yaml <path-to-ckpt>
+python scripts/txt2img.py --prompt "a professional photograph of an astronaut riding a horse" --ckpt <path/to/768model.ckpt/> --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  
 ```
-OR
-```
-streamlit run scripts/streamlit/depth2img.py configs/stable-diffusion/v2-midas-inference.yaml <path-to-ckpt>
-```
+
 
 ### Graphical interface
 
