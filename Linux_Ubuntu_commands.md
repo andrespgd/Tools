@@ -4,6 +4,25 @@ Cheatsheet
 
 https://files.fosswire.com/2007/08/fwunixref.pdf
 
+
+ALIAS: only a shell feature
+```
+alias ll='ls -l'
+#
+alias ll='ls -l' >> .bashrc
+```
+ENV VARIABLE: inherited by all subprocesses
+```
+color='blue'
+echo $color
+#
+export FAV_COLOR='cyan'
+echo $FAV_COLOR
+#
+export FAV_COLOR_FOR_SHELL='green' >> .bashrc
+```
+
+
 Print at variable to screen
 ```
 echo $USER
@@ -25,6 +44,11 @@ for i in {1..10}; do echo -n =$i; done
 ```
 
 
+Calendar
+```
+sudo apt install ncal
+cal
+```
 
 
 For loop:
@@ -40,6 +64,22 @@ do
 done
 ```
 
+
+Run multiple jobs (similar to PowerShell's Get-ChildItem ... | Foreach-Object -Parallel { ..... } -ThrottleLimit 10)
+```
+parallel --jobs 10 --progress < list_jobs.txt
+#
+parallel echo ::: 1 2 3 4 5
+#
+cat count_file.txt | parallel echo {}
+# download multiple URLs
+cat download_items.txt | parallel --jobs 5 wget {}
+```
+
+Find file and output full path
+```
+find ~+ -type f -name "*.py"
+```
 
 
 Find the word "import" inside all subdirectories with files with multiple extensions
