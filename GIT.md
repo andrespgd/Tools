@@ -155,4 +155,9 @@ Ignore files
 * by whole folder,just write test/ in the file
 
 
+## Shallow Clone
+    If you are in a hurry or have a slow connection, will clone ONLY the most recent commit, rather than the entire history
+```
+git clone --depth 1 https://www.github.com/...........git
+```
 
