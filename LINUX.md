@@ -192,6 +192,12 @@ CTRL-R  , type nmap, type git....
 
 # UBUNTU Installs
 
+## Various utilitities
+```
+# gcc and g++
+sudo apt install build-essential
+```
+
 ## NVIDIA driver
 ### Find out what graphics card is installed
 lshw -class display
