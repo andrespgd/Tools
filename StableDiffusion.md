@@ -25,6 +25,10 @@ Run it by:
 
 
 ## Install for Linux w/out GPI
+CPU needs to be on this list:
+https://docs.openvino.ai/latest/openvino_docs_OV_UG_supported_plugins_Supported_Devices.html
+
+GITHUB
 https://github.com/bes-dev/stable_diffusion.openvino
 
 
