@@ -189,6 +189,10 @@ ex.
 CTRL-R  , type nmap, type git....
 ```
 
+### Find out distribution/version
+```
+lsb_release -a
+```
 
 # UBUNTU Installs
 
