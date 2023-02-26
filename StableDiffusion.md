@@ -58,9 +58,9 @@ pip install -r requirements.txt
 pip install -e .
 cd ../stablediffusion
 ```
-### 4 - Download .CKPT file
+### 3 - Download .CKPT file
 
-### 5 Run
+### 4 Run
 ```
 python scripts/txt2img.py --prompt "a professional photograph of an astronaut riding a horse" --ckpt <path/to/768model.ckpt/> --config configs/stable-diffusion/v2-inference-v.yaml --H 768 --W 768  
 ```
