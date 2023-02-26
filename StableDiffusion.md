@@ -24,14 +24,6 @@ Run it by:
 * going to c:\ai\...\*.bat
 
 
-## Install for Linux w/out GPI
-CPU needs to be on this list:
-https://docs.openvino.ai/latest/openvino_docs_OV_UG_supported_plugins_Supported_Devices.html
-
-GITHUB
-https://github.com/bes-dev/stable_diffusion.openvino
-
-
 ## Install for Linux w/GPU
 
 ### For command line
@@ -50,12 +42,14 @@ conda activate ldm
 conda install pytorch==1.12.1 torchvision==0.13.1 -c pytorch
 pip install transformers==4.19.2 diffusers invisible-watermark
 pip install -e .
-
+```
+```
 export CUDA_HOME=/usr/local/cuda-11.4
 conda install -c nvidia/label/cuda-11.4.0 cuda-nvcc
 conda install -c conda-forge gcc
 conda install -c conda-forge gxx_linux-64==9.5.0
-
+```
+```
 cd ..
 git clone https://github.com/facebookresearch/xformers.git
 cd xformers
@@ -65,8 +59,7 @@ pip install -e .
 cd ../stablediffusion
 ```
 ### 4 - Download .CKPT file
-### 5 - Enable Intel® Extension for PyTorch* optimizations in Text-to-Image script (NO GPU)
-```
+
 
 ```
 ### 6 Run
