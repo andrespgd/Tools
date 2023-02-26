@@ -210,6 +210,14 @@ wget xxxxxxxxxxxxxxxxxx.run
 chmod 755 .run
 ./xxxxxxxxxxxxxxx.run
 ```
+OR</br>
+Install it on the Software Window in Ubuntu (may require to create a temp password to be enter in AMOK on bootup)
+
+## NVIDIA Cuda
+```
+sudo apt install nvidia-cuda-toolkit
+```
+
 
 ## Enable SSH
 ```
