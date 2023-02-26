@@ -192,6 +192,18 @@ CTRL-R  , type nmap, type git....
 
 # UBUNTU Installs
 
+## Enable SSH
+```
+sudo apt update
+sudo apt install openssh-server
+
+sudo systemctl status ssh
+# will show ssh.service - OpenBSD Secure Shell server
+# press q to get back to command
+
+sudo ufw allow ssh
+```
+
 
 ## Screenshot shortcuts (pre-installed)
 ```
