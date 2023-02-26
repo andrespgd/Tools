@@ -31,6 +31,7 @@ https://github.com/bes-dev/stable_diffusion.openvino
 ## Install for Linux w/GPU
 
 ### For command line
+1- create a conda py3.9 environment
 
 https://github.com/Stability-AI/stablediffusion
 
