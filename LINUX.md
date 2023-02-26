@@ -192,6 +192,19 @@ CTRL-R  , type nmap, type git....
 
 # UBUNTU Installs
 
+## NVIDIA driver
+### Find out what graphics card is installed
+lshw -class display
+### Go to NVIDIA driver and find the driver #
+Example 525.92
+### Go to NVIDIA Xfree and download the .run file for that version
+https://download.nvidia.com/XFree86/Linux-x86_64/
+```
+wget xxxxxxxxxxxxxxxxxx.run
+chmod 755 .run
+./xxxxxxxxxxxxxxx.run
+```
+
 ## Enable SSH
 ```
 sudo apt update
