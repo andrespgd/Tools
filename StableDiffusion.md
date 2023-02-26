@@ -24,7 +24,11 @@ Run it by:
 * going to c:\ai\...\*.bat
 
 
-## Install for Linux
+## Install for Linux w/out GPI
+https://github.com/bes-dev/stable_diffusion.openvino
+
+
+## Install for Linux w/GPU
 
 ### For command line
 
