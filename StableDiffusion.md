@@ -59,6 +59,10 @@ pip install -e .
 cd ../stablediffusion
 ```
 ### 3 - Download .CKPT file
+Check the latest file ... v2-1 is for 768x768
+```
+wget https://huggingface.co/stabilityai/stable-diffusion-2-1/blob/main/v2-1_768-ema-pruned.ckpt
+```
 
 ### 4 Run
 ```
