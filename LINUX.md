@@ -146,15 +146,6 @@ rm -rf `find -type d -name tmp*`
 rm -rf `find -type f -name *.csv`
 ```
 
-
-## APT-GET update
-```
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
-sudo apt-get autoremove
-```
-
 ## PIP upgrade version
 ```
 sudo -H pip install --upgrade pip
@@ -196,10 +187,39 @@ lsb_release -a
 
 # UBUNTU Installs
 
+## APT-GET update
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo apt-get autoremove
+```
+
 ## Various utilitities
 ```
 # gcc and g++
 sudo apt install build-essential
+```
+
+## Enable SSH
+```
+sudo apt update
+sudo apt install openssh-server
+
+sudo systemctl status ssh
+# will show ssh.service - OpenBSD Secure Shell server
+# press q to get back to command
+
+sudo ufw allow ssh
+```
+## other utilities
+```
+sudo snap install notepad-plus-plus
+alias npp="notepad-plus-plus" >> .bashrc
+sudo apt install nano
+sudo add-apt-repository ppa:fossproject/ppa
+sudo apt update
+sudo apt install green-recorder
 ```
 
 ## NVIDIA driver
@@ -223,19 +243,6 @@ sudo apt install nvidia-cuda-toolkit
 ```
 
 
-## Enable SSH
-```
-sudo apt update
-sudo apt install openssh-server
-
-sudo systemctl status ssh
-# will show ssh.service - OpenBSD Secure Shell server
-# press q to get back to command
-
-sudo ufw allow ssh
-```
-
-
 ## Screenshot shortcuts (pre-installed)
 ```
 Prt Scrn - desktop.
@@ -243,20 +250,6 @@ Alt+Prt Scrn - window.
 Shift+Prt Scrn - area you select.
 ```
 
-## notepad-plus-plus
--set alias on .bashrc to npp
-
-## Nano
-```
-sudo apt install nano
-```
-
-## Screen recorder
-```
-sudo add-apt-repository ppa:fossproject/ppa
-sudo apt update
-sudo apt install green-recorder
-```
 
 
 ## Nautilus File Manager:
