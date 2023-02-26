@@ -195,12 +195,6 @@ sudo apt-get dist-upgrade
 sudo apt-get autoremove
 ```
 
-## Various utilitities
-```
-# gcc and g++
-sudo apt install build-essential
-```
-
 ## Enable SSH
 ```
 sudo apt update
@@ -212,11 +206,18 @@ sudo systemctl status ssh
 
 sudo ufw allow ssh
 ```
-## other utilities
+## Utilities
 ```
+# gcc and g++
+sudo apt install build-essential
+#
 sudo snap install notepad-plus-plus
 alias npp="notepad-plus-plus" >> .bashrc
+#
 sudo apt install nano
+#
+sudo apt install htop
+#
 sudo add-apt-repository ppa:fossproject/ppa
 sudo apt update
 sudo apt install green-recorder
