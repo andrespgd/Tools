@@ -23,11 +23,6 @@ echo $FAV_COLOR
 export FAV_COLOR_FOR_SHELL='green' >> .bashrc
 ```
 
-Print at variable to screen
-```
-echo $USER
-```
-
 Print all system variables
 ```
 env
