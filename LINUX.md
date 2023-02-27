@@ -63,43 +63,29 @@ cal 2023
 ```
 
 ## Parallel
-W/OUT
 ```
+# W/OUT
 command1 & command2 & command3 
-```
-With
-```
+# With
 parallel ::: 'command1' 'command2'
-```
-Using a file with commands
-```
+# Using a file with commands
 parallel --jobs 10 --progress < list_commands.txt
-```
-Example
-```
+# Example
 parallel echo ::: 1 2 3 4 
-```
-Example
-```
+# Example
 cat count_file.txt | parallel echo {}
-```
-Example download multiple URLs
-```
+# Example download multiple URLs
 cat download_items.txt | parallel --jobs 5 wget {}
 ```
 
 ## Find
-output full path
 ```
+# output full path
 find ~+ -type f -name "*.py"
-```
-Find the word "import" inside all subdirectories with files with multiple extensions
-```
+# Find the word "import" inside all subdirectories with files with multiple extensions
 find . -iname "*.txt" -o -iname "*.md" -o -iname "*.py" | xargs grep import --color=auto
-```
-Find a folder
-```
-find / -xdev 2>/dev/null -name "GeographicLib"
+# Find a folder
+find / -xdev 2>/dev/null -name "lib"
 ``````
 
 ## GREP
