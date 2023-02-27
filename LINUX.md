@@ -100,9 +100,7 @@ grep -rnw -e 'word_on_file'
 sudo lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
 sudo lshw -C disk
 sudo fdisk -l
-```
-List all available HDDs/Partitions
-```
+# List all available HDDs/Partitions
 sudo lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
 ```
 
