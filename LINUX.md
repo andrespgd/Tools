@@ -77,6 +77,8 @@ cat download_items.txt | parallel --jobs 5 wget {}
 ```
 # output full path
 find ~+ -type f -name "*.py"
+# or
+find -type f -name "*.py" | xargs readlink -e
 # Find the word "import" inside all subdirectories with files with multiple extensions
 find . -iname "*.txt" -o -iname "*.md" -o -iname "*.py" | xargs grep import --color=auto
 # Find a folder
