@@ -195,7 +195,7 @@ sudo service sshd restart
 ```
 On **client**
 ```
-ssh user@xxx.xxx.xxx.xxx -X
+ssh -X user@xxx.xxx.xxx.xxx
 gedit #test
 ```
 
