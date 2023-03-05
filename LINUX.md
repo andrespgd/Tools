@@ -186,6 +186,19 @@ sudo systemctl status ssh  # will show ssh.service # press q to get back to comm
 sudo ufw allow ssh
 ```
 
+## Enable X11 Forwarding
+On **server**, go to /etc/ssh/sshd_config
+* ensure X11 Forwarding yes
+* restart sshd if needed
+```
+sudo service sshd restart
+```
+On **client**
+```
+ssh user@xxx.xxx.xxx.xxx -X
+gedit #test
+```
+
 ## Enable XDRP
 ```
 sudo apt install xfce4 xfce4-goodies -y
