@@ -188,7 +188,7 @@ sudo ufw allow ssh
 
 ## Enable X11 Forwarding
 On **server**, go to /etc/ssh/sshd_config
-* ensure X11 Forwarding yes
+* X11 Forwarding yes
 * restart sshd if needed
 ```
 sudo service sshd restart
