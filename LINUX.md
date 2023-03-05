@@ -180,13 +180,30 @@ sudo apt-get autoremove
 ```
 sudo apt update
 sudo apt install openssh-server
-
-sudo systemctl status ssh
-# will show ssh.service - OpenBSD Secure Shell server
-# press q to get back to command
-
+#
+sudo systemctl status ssh  # will show ssh.service # press q to get back to command
+#
 sudo ufw allow ssh
 ```
+
+## Enable XDRP
+```
+sudo apt install xfce4 xfce4-goodies -y
+sudo apt install xfce4 xfce4-goodies -y
+# check status
+sudo systemctl status xrdp
+# if not runnning
+sudo systemctl start xrdp
+```
+To have a typical Ubuntu Desktop environment:
+Create ~/.xsessionrc
+```
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+```
+
+
 ## Utilities
 ```
 # gcc and g++
@@ -202,6 +219,8 @@ sudo apt install htop
 sudo add-apt-repository ppa:fossproject/ppa
 sudo apt update
 sudo apt install green-recorder
+#
+sudo apt install neofetch
 ```
 
 ## NVIDIA driver
@@ -217,7 +236,11 @@ chmod 755 .run
 ./xxxxxxxxxxxxxxx.run
 ```
 OR</br>
-Install it on the Software Window in Ubuntu (may require to create a temp password to be enter in AMOK on bootup)
+Install it on the Software Window in Ubuntu (may require to create a temp password to be enter in AMOK on bootup)</br>
+Check that is working correctly by:
+```
+nvidia-smi
+```
 
 ## NVIDIA Cuda
 ```
