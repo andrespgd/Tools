@@ -234,6 +234,13 @@ sudo apt update
 sudo apt install green-recorder
 #
 sudo apt install neofetch
+# 
+sudo apt install speedtest-cli
+```
+
+## Speed Test
+```
+speedtest-cli --simple
 ```
 
 ## NVIDIA driver
