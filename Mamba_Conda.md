@@ -19,17 +19,16 @@ mamba update -n base mamba
 ```
 
 
-Update all libraries inside an environment
-```
-conda update -n py310 --all
-```
-
 Create a new environment
 ```
 conda create -n py311 python=3.11
-```
-Activate/Deactivate
-```
 conda activate py311
+conda install numpy scipy pandas matplotlib spyder plotly
 conda deactivate
+```
+
+
+Update all libraries inside an environment
+```
+conda update -n py311 --all
 ```
