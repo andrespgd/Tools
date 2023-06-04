@@ -1,6 +1,22 @@
 ## StabilityAI is Open and FREE - Stable Diffusion
 
 
+## LINUX
+https://stable-diffusion-ui.github.io/docs/installation/
+```
+Linux
+Download for Linux
+
+Extract:
+Extract the file with your favourite file manager, or use unzip Easy-Diffusion-Linux.zip in a terminal.
+After extracting the .zip file, please open a terminal, and go to the easy-diffusion directory.
+Run:
+In the terminal, run ./start.sh (or bash start.sh)
+This will automatically install Easy Diffusion, set it up, and start the interface. No additional steps are needed.
+
+```
+
+
 ## Windows - WebUI
 
 https://www.youtube.com/watch?v=6MeJKnbv1ts
