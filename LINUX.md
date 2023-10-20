@@ -199,8 +199,10 @@ ssh -X user@xxx.xxx.xxx.xxx
 gedit #test
 ```
 
-## Enable XDRP
+## Enable XDRP (install Remmina to RDP from Windows and Linux)
 ```
+# should start by default
+sudo apt install xdrp    
 sudo apt install xfce4 xfce4-goodies -y
 sudo apt install xfce4 xfce4-goodies -y
 # check status
@@ -216,6 +218,13 @@ export GNOME_SHELL_SESSION_MODE=ubuntu
 export XDG_CURRENT_DESKTOP=ubuntu:GNOME
 ```
 
+## Remmina
+```
+-from Windows, use RDP to connect
+-if after login , black screen, logout off Linux computer physically
+- how to fix color profile pop-up windows 20-04-20-10/
+https://devanswers.co/how-to-fix-authentication-is-required-to-create-a-color-profile-managed-device-on-ubuntu-
+```
 
 ## Utilities
 ```
