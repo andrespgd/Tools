@@ -4,6 +4,18 @@
 
 https://files.fosswire.com/2007/08/fwunixref.pdf
 
+## TERMINAL copy/paste
+
+
+CTRL+SHIFT+C
+CTRL+SHIFT+V
+
+
+## COPY/PASTE Clipboard (copyq)
+```
+sudo apt install copyq
+```
+
 
 ## ALIAS: only a shell feature
 ```
