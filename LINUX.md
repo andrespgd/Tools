@@ -291,3 +291,8 @@ Shift+Prt Scrn - area you select.
 * right-click on file/folder, copy, then on Terminal, right-click "paste as filenames" (similar to Path-Copy-Copy)
 * drag file/folder to Terminal, and will show the path
 * to get folder path, click on file/folder --> CTRL+L
+
+## Battery Status
+```
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+```
