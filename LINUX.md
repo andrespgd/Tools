@@ -133,7 +133,10 @@ sed -i 's,string_to_find,string_to_replace,g' filename
 ```
 ls -l *jpeg | wc -l
 ```
-
+## Watch command
+```
+watch 'ls -ls *jpeg | wc -l'
+```
 ## Detele
 RM recursively delete folders or files by name
 ```
