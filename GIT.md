@@ -161,3 +161,7 @@ Ignore files
 git clone --depth 1 https://www.github.com/...........git
 ```
 
+## Git Fetch Vs. Pull
+```
+https://www.youtube.com/watch?v=GOrhB6eYASU
+```
