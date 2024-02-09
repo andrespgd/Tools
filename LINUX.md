@@ -86,15 +86,15 @@ cat download_items.txt | parallel --jobs 5 wget {}
 ```
 
 ## Find
-# output full path
+### output full path
 ```
 find ~+ -type f -name "*.py"
 ```
-# output full path w/xargs
+### output full path w/xargs
 ```
 find -type f -name "*.py" | xargs readlink -e
 ```
-# Find the word "import" inside certain file types and print line number
+### Find the word "import" inside certain file types and print line number
 ```
 find . -iname "*.txt" -o -iname "*.md" -o -iname "*.py" | xargs grep import --color=auto -n
 ``````
