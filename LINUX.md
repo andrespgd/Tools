@@ -137,16 +137,11 @@ ls -l *jpeg | wc -l
 ```
 watch 'ls -ls *jpeg | wc -l'
 ```
-## Detele
-RM recursively delete folders or files by name
+## Delete
+recursively delete by type/keywords
 ```
 rm -rf `find -type d -name tmp*`
 rm -rf `find -type f -name *.csv`
-```
-
-## PIP upgrade version
-```
-sudo -H pip install --upgrade pip
 ```
 
 ## CURL 
@@ -158,7 +153,7 @@ curl -L https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Resources/P3+
 ## WGET 
 can be used recursively and can recover when a download fails
 ```
-https://github.com/andrespgd/linux_pgd/edit/master/README.md
+wget https://github.com/andrespgd/linux_pgd/edit/master/README.md
 ```
 
 
