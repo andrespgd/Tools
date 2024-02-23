@@ -56,3 +56,6 @@ https://medium.com/@limichelle21/5-data-structures-in-5-minutes-7f4b34d00b8e
 
 ## OOP
 Encapsulates: data AND logic
+
+## 5 Signs of an inexperienced self-taught developer
+[https://mail.google.com/mail/u/0/#inbox/QgrcJHsTkKMWNTfzRsvDBQQHsQBcVJhCPxg?projector=1](https://youtu.be/B_HR2R3xsnQ?si=9qvWiF9un92Mp4Tj)https://youtu.be/B_HR2R3xsnQ?si=9qvWiF9un92Mp4Tj
