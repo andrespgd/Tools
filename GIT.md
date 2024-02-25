@@ -144,8 +144,23 @@ git pull is a convenient shortcut for completing both git fetch and git merge in
 ```
 git pull remotename branchname
 ```
-    
-    
+
+# Create a new local branch and push it to GitHub
+```
+git clone https://github.com/andrespgd/Python
+cd Python
+git branch dev10
+git checkout dev10
+touch new_script.py
+git add new_script.py
+git commit -m "new script"
+git push origin dev10
+```
+will show in GitHub Repo as new branch, but it has no pull request yet
+```
+git push origin dev10:master
+```
+will automatically apply the changes to the master in Github
     
 # Other
 
