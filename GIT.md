@@ -144,6 +144,11 @@ git pull is a convenient shortcut for completing both git fetch and git merge in
 ```
 git pull remotename branchname
 ```
+# Clone a specific branch
+```
+git clone -b <branch> <remote_repo>
+git clone -b dev1 https://github.com/andrespgd/Python
+```
 
 # Create a new local branch and push it to GitHub
 ```
