@@ -2,12 +2,12 @@
 ```
 gh auth login
 ```
--terminal will ask a couple of questions
--will open a browser with GitHub page to login
--browser will ask for usn/pwd
--terminal Will provide a code
--enter it in browser
--now that terminal can run git commands to GitHub
+- terminal will ask a couple of questions
+- will open a browser with GitHub page to login
+- browser will ask for usn/pwd
+- terminal Will provide a code
+- enter it in browser
+- now that terminal can run git commands to GitHub
 
 
 # Basic Setup
