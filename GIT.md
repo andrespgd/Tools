@@ -9,6 +9,7 @@ gh auth login
 - terminal Will provide a code
 - enter it in browser
 - now that terminal can run git commands to GitHub
+- terminal will stay authenticated even after rebooting
 
 
 # Basic Setup
