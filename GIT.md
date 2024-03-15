@@ -154,22 +154,27 @@ git clone -b <branch> <remote_repo>
 git clone -b dev1 https://github.com/andrespgd/Python
 ```
 
-# Create a new local branch and push it to GitHub
+# Create a new local branch (and push to GitHub in 2 ways)
 ```
 git clone https://github.com/andrespgd/Python
 cd Python
 git branch dev10
 git checkout dev10
+```
+File: create/add/commit
+```
 touch new_script.py
 git add new_script.py
 git commit -m "new script"
+```
+Push Type#1 - will create a new branch in GitHub
+```
 git push origin dev10
 ```
-will show in GitHub Repo as new branch, but it has no pull request yet
+Push Type#2 - will push/apply the changes into the master branch in GitHub
 ```
 git push origin dev10:master
 ```
-will automatically apply the changes to the master in Github
     
 # Other
 
