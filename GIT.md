@@ -2,6 +2,7 @@
 ```
 gh auth login
 ```
+- gh command NEEDS TO BE INSTALLED FROM https://cli.github.com/
 - terminal will ask a couple of questions
 - will open a browser with GitHub page to login
 - browser will ask for usn/pwd
