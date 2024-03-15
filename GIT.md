@@ -1,10 +1,13 @@
 # GH - interactive authentication (easy)
-Login into your **github.com** account 
 ```
 gh auth login
 ```
-Will provide a code and open a browser tab, paste code\
-Now you can use git on that terminal
+-terminal will ask a couple of questions
+-will open a browser with GitHub page to login
+-browser will ask for usn/pwd
+-terminal Will provide a code
+-enter it in browser
+-now that terminal can run git commands to GitHub
 
 
 # Basic Setup
