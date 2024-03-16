@@ -35,15 +35,8 @@ Clone Repo
 ```
 git clone https://github.com/<username>/REPO
 cd REPO
-```
-Setup Token (password)
-```
-git remote remove origin
-git remote add origin https://<token>@github.com/<username>/REPO.git
-```
+``` 
 
-If you **don't have a token**, go to https://github.com/settings/tokens, click on "Generate a new token", copy/paste <token> **above**
-    
 Create a change and push it
 ```
 touch file1.txt
@@ -94,28 +87,23 @@ Check what branch you are in (typically the master branch)
 git branch
 ```
 
-You’re going to work on issue #66 in whatever issue-tracking system your company uses
+Create new branch and switch to it
 ```
-git branch   branch66
-git checkout branch66
+git branch   branch88
+git checkout branch88
 ```
 
 Both commands at the same time
 ```
-git checkout -b branch66
-```
-
-Check what branch you are on now
-```
-git branch
+git checkout -b branch88
 ```
 
 Make changes, add, commit, push
 ```
-touch file2.txt
+touch file.txt
 git add -all
 git commit -m "changes"
-git push -u origin branch66
+git push -u origin branch88
 ```
 
 See remote changes and switch to a different branch
@@ -137,18 +125,21 @@ If you already have a local repository with a remote URL set up for the desired 
 git fetch remotename
 ```
 
-Merging changes into your local branch: combines your local changes with changes made by others
-* Typically, you'd merge a remote-tracking branch (i.e., a branch fetched from a remote repository) with your local branch:
+Merging changes into your local branch
+* combines your local changes with changes made by others
+* Typically, you'd merge a remote-tracking branch with your local branch
+* i.e., a branch fetched from a remote repository
 ```
 git merge remotename/branchname
 ```
 This merges updates made online with your local work
 
     
-git pull is a convenient shortcut for completing both git fetch and git merge in the same command:
+PULL: git fetch + git merge in the same command
 ```
 git pull remotename branchname
 ```
+
 # Clone a specific branch
 ```
 git clone -b <branch> <remote_repo>
@@ -180,9 +171,10 @@ git push origin dev10:master
 # Other
 
 Ignore files
-* Ex.ignore a file called readme.txt, write readme.txt in the .gitignore file.
-* by name of the extension: write *.txt
-* by whole folder,just write test/ in the file
+* .gitignore file
+* ex. by filename readme.txt
+* ex. by extension *.txt
+* ex. by whole folder, just write folder_to_ignore/
 
 
 ## Shallow Clone
