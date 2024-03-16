@@ -45,10 +45,15 @@ git commit -m "just a test"
 git push -u origin master
 ```
 
-Download latest changes from GitHub (if there were any) and merge
+Download latest changes(if there were any) + merge 
 ```
 git fetch origin
 git merge origin/master
+```
+
+Download latest changes + merge in the same command (keep local copy on sync)
+```
+git pull origin master
 ```
 
 Add only selected folders/files only, commit and push:
@@ -60,11 +65,6 @@ git add data05/*
 git add data06/*
 git commit -m "data folders"
 git push -u origin master
-```
-
-Download all changes done on the GITHUB page to keep local copy on sync
-```
-git pull origin master
 ```
 
 If ERROR: Your local changes to the following files would be overwritten by merge:... SOLUTION:
