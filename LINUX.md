@@ -308,3 +308,10 @@ Shift+Prt Scrn - area you select.
 ```
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
 ```
+
+## Resize .JPG command line
+```
+sudo apt install imagemagick
+convert <INPUT_FILE> -quality 10% <OUTPUT_FILE>
+for file in *.jpg; do convert $file -quality 10% "resized_"$file ; done
+```
